@@ -38,7 +38,7 @@ p {
 
 /* Lists */
 ul {
-    list-style-type: none;
+    list-style-type: disc; /* Use disc bullets for unordered lists */
     padding: 0;
 }
 
@@ -55,3 +55,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
