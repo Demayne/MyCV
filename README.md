@@ -4,7 +4,7 @@ This repository contains my personal webpage acting as a resume.
 
 ## Deployed Webpage
 
-You can access my personal webpage [here](https://demayne.github.io/Git(MyCV)/index.html), where you can view my CV.
+You can access my personal webpage [here](https://demayne.github.io/index.html), where you can view my CV.
 
 ## Repository Contents
 
