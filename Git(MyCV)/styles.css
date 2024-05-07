@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Main Sections */
+section {
+    margin: 20px 0;
+}
+
+/* Section Titles */
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Article Titles */
+h3 {
+    color: #666;
+    font-size: 20px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
