@@ -54,8 +54,8 @@ This project is licensed under the MIT License. You are free to use, modify, and
 For any questions or feedback, feel free to reach out:  
 
 Email: govender.demayne@gmail.com  
-LinkedIn: Demayne Govender  
-GitHub: Demayne's GitHub  
+LinkedIn: [Demayne Govender](https://www.linkedin.com/in/demayne-govender-452890316)  
+GitHub: [Demayne's GitHub ](https://github.com/Demayne)   
 
 
 
