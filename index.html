@@ -1,120 +1,126 @@
-<!-- Create an HTML page called index.html. -->
-<!-- On this page add any elements you would like to create a webpage that acts as an online CV. This is your personal webpage, so feel free to customise it to suit your needs but make sure that you include at least the following: -->
-<!-- A short bio. Add a short (no more than about three paragraphs) description of yourself. Who are you? What is your experience? What are your passions? What motivates you? What is it that you would most like to do? Etc. -->
-<!-- Your contact details. E.g. name, contact number, email address, links to any of your (professional) social media including LinkedIn. An image of yourself. -->
-<!-- A list of your skills and competencies. -->
-<!-- Describe your education. -->
-<!-- Describe your work experience. -->
-<!-- As you progress through this course you can keep adding to this personal webpage. For example, in the near future, you can describe some projects that you have worked on and add links to the code (in GitHub). -->
-<!-- Add links to any blog posts or articles that you have written. -->
-<!-- Use CSS to style and position the elements on your webpage as attractively as possible. Feel free to use style libraries like Bootstrap. -->
+<!-- Level 1 -->
+<!--Version Control - Deployment-->
+<!--Compulsory Task 2-->
+<!--Demayne Govender-->
+<!--21/10/2024-->
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demayne Govender - CV</title>
-    <!-- Link to external CSS file for styling -->
-    <link rel="stylesheet" href="styles.css">
+  <!-- Meta tags for character set and viewport for responsive design -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to Font Awesome for icons -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="stylesheets/main.css">
+
+  <!-- Title of the document -->
+  <title>Demayne Govender CV</title>
 </head>
-
 <body>
-    <header>
-        <!-- Header section containing name and contact details -->
-        <h1>Demayne Govender</h1>
-        <address>
-            10 Juniper Street, Reizernark, Boksburg<br>
-            0693563459<br>
-            <!-- Email link -->
-            <a href="mailto:govender.demayne@gmail.com">govender6.demayne@gmail.com</a>
-        </address>
-    </header>
+  <!-- Header section containing name and title -->
+  <header>
+    <h1>Demayne Govender</h1>
+    <p>JUNIOR SOFTWARE ENGINEER</p>
+  </header>
 
-    <section id="bio">
-        <!-- Bio section -->
-        <h2>About Me</h2>
-        <p>
-            I always look forward to learning new things and meeting new people. Working alongside goal-driven individuals inspires me to push through difficult situations and produce stellar results.
-        </p>
-    </section>
+  <!-- Main container for left and right panels -->
+  <div class="container">
+    <div class="leftPanel">
+      <!-- Profile image -->
+      <img src="Demayne_photo.jpg" alt="CV image" class="profile-image"/>
 
-    <section id="experience">
-        <!-- Experience section -->
-        <h2>Experience</h2>
-        <!-- Individual articles for each experience -->
-        <article>
-            <h3>Junior Software Engineer - ABC Industries (August 2023 – November 2023)</h3>
-            <p>
-                In my role as a Junior Software Developer at ABC Industries, I actively engaged in managing ABC's internal support and IT environment, overseeing the development of internal projects, and spearheading initiatives in automation and AI.
-            </p>
-        </article>
-        <article>
-            <h3>Educating Assistant - Oosrand Secondary School (February 2021 – May 2021)</h3>
-            <p>
-                Assisted teachers in the sanitization and screening of learners as a safety protocol due to the COVID-19 pandemic. Supervised and gave lessons when instructed to fill in for absent educators. Assisted in organizing DBE meetings and ensured their execution was a priority.
-            </p>
-        </article>
-    </section>
+      <!-- Contact details section -->
+      <div class="item">
+        <h2>CONTACT DETAILS</h2>
+        <p><i class="fa fa-phone" aria-hidden="true"></i> (069) 356 3459 </p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:govender.demayne@gmail.com"> govender.demayne@gmail.com </a></p>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Pretoria, 0022 </p>
+        <p><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/demayne-govender-452890316"> LinkedIn </a></p>
+        <p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/Demayne"> Github </a></p>
+      </div>
 
-    <section id="education">
-        <!-- Education section -->
-        <h2>Education</h2>
-        <p>
-            Matriculated with a bachelor’s pass and 2 distinctions from Bracken High School in January 2019.
-        </p>
-        <!-- List of subjects -->
+      <!-- Technical skills section -->
+      <div class="item">
+        <h2>TECHNICAL SKILLS</h2>
         <ul>
-            <li>Mathematics</li>
-            <li>English</li>
-            <li>Afrikaans</li>
-            <li>Life Orientation</li>
-            <li>Physical Sciences</li>
-            <li>Life Sciences</li>
-            <li>Visual Art</li>
+          <li>Languages: Python, JavaScript, HTML5, CSS3</li>
+          <li>Frameworks: Flask, React</li>
+          <li>Databases: MySQL</li>
+          <li>Tools: Git, Visual Studio, VS Code</li>
+          <li>Operating Systems: Windows, Linux</li>
+          <li>Automation: UiPath, Automation Anywhere</li>
         </ul>
-    </section>
+      </div>
 
-    <section id="skills">
-        <!-- Skills section -->
-        <h2>Skills</h2>
-        <!-- List of skills -->
-        <ul>
-            <li>Completing Software engineering Bootcamp (HyperionDev)</li>
-            <li>Proficient in Python, Django, HTML, CSS, NLP, Automation Anywhere, Git</li>
-            <li>Code 10 Driver’s License</li>
-        </ul>
-    </section>
+      <!-- Education section -->
+      <div class="item">
+        <h2>EDUCATION</h2>
+        <h3>2015 - 2019: Matriculated from Bracken High School</h3>
+        <h3>2023 - 2024: NQF Level 5 Certification in Software Engineering</h3>
+      </div>
+    </div>
 
-    <section id="certifications">
-        <!-- Certifications section -->
-        <h2>Certifications</h2>
-        <!-- List of certifications -->
-        <ul>
-            <li>RPA Professional (Automation Anywhere)</li>
-            <li>Software Engineering (HyperionDev – MICT SETA Accreditation)</li>
-        </ul>
-    </section>
+    <div class="rightPanel">
+      <!-- About Me section -->
+      <div class="item">
+        <h2>ABOUT ME</h2>
+        <p>I always look forward to learning new things and meeting new people. Growing alongside goal-driven individuals inspires me to push through adversity and produce stellar results.</p>
+      </div>
 
-    <section id="references">
-        <!-- References section -->
-        <h2>References</h2>
-        <!-- List of references -->
-        <ul>
-            <li>Mr Naidoo – Business Manager at ABC Industries - <a href="tel:+27736167764">+27 73 616 7764</a></li>
-        </ul>
-    </section>
+      <!-- Work Experience section -->
+      <div class="item">
+        <h2>WORK EXPERIENCE</h2>
+        <div>
+          <h3>HYPERIONDEV, Software Engineering Bootcamp</h3>
+          <p>06/2023 - 06/2024</p>
+          <ul>
+            <li>Achieved an overall average of 99% for the bootcamp tasks</li>
+            <li>Mastered Python programming within six months, enhancing coding skills and efficiency in data manipulation and analysis.</li>
+            <li>Acquired hands-on experience with key data science libraries, including NumPy, pandas, and scikit-learn.</li>
+            <li>Completed real-world projects called Capstone tasks: Software Engineering Bootcamp Portfolio</li>
+          </ul>
+        </div>
 
-    <section id="activities">
-        <!-- Activities section -->
-        <h2>Activities</h2>
-        <p>
-            I am passionate about football and I enjoy both watching and playing the beautiful game. I always want to learn more about anything and everything around me: not only to expand my knowledge but to be a better communicator and expand my network of successful individuals. My hobbies include playing golf, watching sport, visiting places I haven’t been before and going on spontaneous adventures wherever the wind blows.
-        </p>
-    </section>
+        <div>
+          <h3>HYPERIONDEV, Full-Stack Web & Software Engineering Bootcamp</h3>
+          <p>07/2024 - 06/2025</p>
+          <ul>
+            <li>Maintaining an overall average of 99% for the bootcamp tasks</li>
+            <li>Mastering Java programming, full-stack web creation, enhancing coding skills and efficiency in data manipulation and analysis.</li>
+            <li>Acquiring hands-on experience with key database technologies such as SQL</li>
+          </ul>
+        </div>
 
+        <div>
+          <h3>CIBA Industries, Junior Software Developer</h3>
+          <p>08/2023 - 12/2023</p>
+          <ul>
+            <li>Actively engaging in the management of CIBA’s internal support and IT environment</li>
+            <li>Overseeing the development of internal projects and spearheading initiatives in automation and AI.</li>
+            <li>Managing and updating bots/automation processes and ensuring the successful implementation of enhancements to optimize efficiency.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Projects section -->
+      <div class="item">
+        <h2>PROJECTS</h2>
+        <h3>Time Sheet Email System (CIBA Industries)</h3>
+        <p>Developed a fully automated email system using Python and Automation Anywhere which ensured that all CIBA’s consultants could email their hours worked to the bot email address, 
+            which then linked their names and hourly rate to an Excel spreadsheet and according to that info would calculate the amount owed to each consultant for the month.</p>
+      </div>
+    </div>
+  </div>
 </body>
-
 </html>
-

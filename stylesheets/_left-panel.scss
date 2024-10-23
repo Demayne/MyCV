@@ -1,0 +1,58 @@
+// _left-panel.scss
+@import 'variables';
+
+.leftPanel {
+    color: $color-left-panel-text;
+    
+
+    a {
+        color: $color-secondary;
+        text-decoration: none;
+        font-size: 0.38cm;
+    }
+
+    h2 {
+        color: $color-left-panel-text;
+    }
+
+    .details {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-text {
+        margin-left: 8px;
+    }
+
+    .bottomLineSeparator {
+        border-bottom: 0.05cm solid white;
+    }
+
+    .yearsOfExperience {
+        width: 1.6cm;
+        display: flex;
+        justify-content: center;
+    }
+
+    .alignleft {
+        text-align: left !important;
+        width: 1cm;
+    }
+
+    .alignright {
+        text-align: right !important;
+        width: 0.6cm;
+        margin-right: 0.1cm;
+    }
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
